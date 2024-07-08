@@ -68,9 +68,7 @@ case "$DISTRO" in
     "20")
         sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el,s390x] http://mirror.one.com/mariadb/repo/10.4/ubuntu focal main' >/dev/null 2>&1
         ;;
-    "16")
-        sudo add-apt-repository 'deb [arch=amd64,arm64,i386,ppc64el] http://mirror.one.com/mariadb/repo/10.4/ubuntu xenial main' >/dev/null 2>&1
-        ;;
+   
 esac
 echo -e "$GREEN Done...$COL_RESET"
 
